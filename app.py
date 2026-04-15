@@ -60,10 +60,16 @@ st.markdown(
     }}
 
     .stTextInput input {{
-        background: rgba(255,255,255,0.15);
-        color: white;
-        border-radius: 12px;
-    }}
+    background: rgba(255,255,255,0.18);
+    color: white !important;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.35);
+    padding: 10px;
+}}
+
+.stTextInput input::placeholder {{
+    color: rgba(255,255,255,0.85) !important;
+}}
 
     .stButton > button {{
         width: 100%;
@@ -106,7 +112,7 @@ st.markdown("<p style='text-align:center;'>A calm companion for hectic days 😌
 # ----------------------------
 # INPUTS
 # ----------------------------
-nickname = st.text_input("Your Secret Name 😌", "Stare Specialist 👀")
+nickname = st.text_input("Nickname 👀", "Stare Specialist 👀")
 
 # ----------------------------
 # EMOJI MOOD SELECTOR
