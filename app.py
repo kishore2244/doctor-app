@@ -8,8 +8,8 @@ import base64
 # PAGE CONFIG
 # ----------------------------
 st.set_page_config(
-    page_title="Miss Busy Doctor",
-    page_icon="👩‍⚕️",
+    page_title="VitalEase ✨",
+    page_icon="✨",
     layout="centered"
 )
 
@@ -60,16 +60,15 @@ st.markdown(
     }}
 
     .stTextInput input {{
-    background: rgba(0,0,0,0.45) !important;
+    background: rgba(255,255,255,0.18);
     color: white !important;
-    border-radius: 14px;
-    border: 1px solid rgba(255,255,255,0.25);
-    padding: 12px;
-    font-size: 18px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.35);
+    padding: 10px;
 }}
 
 .stTextInput input::placeholder {{
-    color: rgba(255,255,255,0.75) !important;
+    color: rgba(255,255,255,0.85) !important;
 }}
 
     .stButton > button {{
@@ -108,7 +107,7 @@ memory = load_memory()
 # HEADER
 # ----------------------------
 st.markdown("<h1 style='text-align:center;'>👩‍⚕️ Miss Busy Doctor</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align:center;'>A calm companion for hectic days 😌</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align:center;'>A calm companion for hectic days 😊</p>", unsafe_allow_html=True)
 
 # ----------------------------
 # INPUTS
