@@ -227,6 +227,11 @@ if st.button("Analyze Me ✨"):
 # DASHBOARD
 # ----------------------------
 st.subheader("📊 Dashboard")
+if st.button("🗑️ Clear History"):
+    memory["history"] = []
+    save_memory(memory)
+    st.success("History Cleared 😎")
+    st.rerun()
 
 history = memory["history"]
 
