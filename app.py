@@ -66,7 +66,7 @@ st.markdown(
     border: 1px solid rgba(255,255,255,0.25);
     padding: 12px;
     font-size: 18px;
-}
+}}
 
 .stTextInput input::placeholder {{
     color: rgba(255,255,255,0.75) !important;
