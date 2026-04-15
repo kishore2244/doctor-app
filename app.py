@@ -60,15 +60,16 @@ st.markdown(
     }}
 
     .stTextInput input {{
-    background: rgba(255,255,255,0.18);
+    background: rgba(0,0,0,0.45) !important;
     color: white !important;
-    border-radius: 12px;
-    border: 1px solid rgba(255,255,255,0.35);
-    padding: 10px;
-}}
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: 12px;
+    font-size: 18px;
+}
 
 .stTextInput input::placeholder {{
-    color: rgba(255,255,255,0.85) !important;
+    color: rgba(255,255,255,0.75) !important;
 }}
 
     .stButton > button {{
